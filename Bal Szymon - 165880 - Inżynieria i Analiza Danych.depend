@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1636660772 source:c:\users\szymon bal\documents\matlab\bal szymon - 165880 - in¿ynieria i analiza danych\main.cpp
+	<iostream>
+	<time.h>
+	<cstdlib>
+	<fstream>
+
