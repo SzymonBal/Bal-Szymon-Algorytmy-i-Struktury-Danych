@@ -1,6 +1,8 @@
 
-          /*Bal Szymon-165880-Algorytmy i Strukury Danych-Projekt 1
 
+
+
+          /*Bal Szymon-165880-Algorytmy i Strukury Danych-Projekt 1
             Zadanie 15. Znajdz liczbe trojelementowych kombinacji liczb z zadanego ciagu, których suma jest równa zadanej lizcbie M.
             Przyk³ad.
             Wejœcie: [ 1, 2, 5, 1, 2, 1, 2, 4 ]
@@ -42,8 +44,17 @@ int main()
     cout << "Podaj rozmiar tablicy: "; cin >> rozmiar;
     tablica = new int[rozmiar];
     wypelnij(tablica, rozmiar);
+if(rozmiar<3)
+       {
+cout<<"rozmiar tablicy nie pozwala na wykonanie programu";
+        ofstream zapis;
+    zapis.open("dane.txt",ios::app);
+    zapis<<"wielkosc tablicy uniemozliwia wykonanie algorytmu \n";
+    zapis << "-----------------------------------------------------------\n";
+ return 0;}
 
-
+    else
+{
 
     for (int i = 0; i < rozmiar; i++)
     {
@@ -61,9 +72,10 @@ int main()
 
     znajdz_kombinacje(tablica, rozmiar, suma);
 
+
     return 0;
 }
-
+}
 void wypelnij(int tablica[], int rozmiar)/*Losowanie generujące liczby do ciągu posiadającego ilość elemenetów (rozmiar)*/
 {
     srand(time(NULL));
@@ -129,6 +141,3 @@ void znajdz_kombinacje(int tablica[], int rozmiar, int suma) /*Głowna funkcja k
     zapis.close(); //Obowiązkowo należy zamknąć plik
 
 }
-
-
-

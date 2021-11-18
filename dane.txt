@@ -1,0 +1,53 @@
+czas wykonywania algorytmu = 5 dla sumy rownej = 12 i liczby elementow rownej = 112 znaleziono = 2 kombinacjiczas wykonywania algorytmu = 1 dla sumy rownej = 0 i liczby elementow rownej = 1 znaleziono = 0 kombinacji 
+-----------------------------------------------------------
+ 10, 1,9
+10, 9,1
+14, 3,3
+14, 5,1
+14, 5,1
+3, 13,4
+3, 13,4
+15, 1,4
+15, 1,4
+15, 4,1
+15, 4,1
+15, 1,4
+15, 1,4
+15, 4,1
+15, 4,1
+5, 11,4
+5, 11,4
+18, 1,1
+3, 13,4
+3, 13,4
+18, 1,1
+1, 18,1
+1, 4,15
+1, 15,4
+4, 15,1
+15, 4,1
+czas wykonywania algorytmu = 26 dla sumy rownej = 20 i liczby elementow rownej = 20 znaleziono = 26 kombinacji 
+-----------------------------------------------------------
+ 8, 1,1
+8, 1,1
+8, 1,1
+1, 8,1
+1, 8,1
+1, 2,7
+8, 1,1
+1, 2,7
+2, 7,1
+czas wykonywania algorytmu = 8 dla sumy rownej = 10 i liczby elementow rownej = 10 znaleziono = 9 kombinacji 
+-----------------------------------------------------------
+ wielkosc tablicy uniemozliwia wykonanie algorytmuwielkosc tablicy uniemozliwia wykonanie algorytmuwielkosc tablicy uniemozliwia wykonanie algorytmu-----------------------------------------------------------
+ 1, 5,4
+1, 5,4
+1, 8,1
+5, 4,1
+5, 4,1
+czas wykonywania algorytmu = 6 dla sumy rownej = 10 i liczby elementow rownej = 10 znaleziono = 5 kombinacji 
+-----------------------------------------------------------
+ wielkosc tablicy uniemozliwia wykonanie algorytmu 
+-----------------------------------------------------------
+ wielkosc tablicy uniemozliwia wykonanie algorytmu 
+-----------------------------------------------------------
