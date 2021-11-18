@@ -115,7 +115,7 @@ void znajdz_kombinacje(int tablica[], int rozmiar, int suma) /*Głowna funkcja k
                 {
                     cout << tablica[i] << " ," << tablica[j] << " ," << tablica[k] << endl << endl;
                     licz_wystapienia++;
-                    zapis << tablica[i] << ", " << tablica[j] << "," << tablica[k] << endl;
+                    zapis << tablica[i] << ", " << tablica[j] << ", " << tablica[k] << endl;
                 }
 
             }
@@ -134,7 +134,7 @@ void znajdz_kombinacje(int tablica[], int rozmiar, int suma) /*Głowna funkcja k
     czas = ((stop - start) * 1000) / (CLOCKS_PER_SEC);
 
 
-    zapis << "czas wykonywania algorytmu = " << czas << " " << "dla sumy rownej = " << suma << " i liczby elementow rownej = " << rozmiar;
+    zapis << "czas wykonywania algorytmu = " << czas << "ms " << "dla sumy rownej = " << suma << " i liczby elementow rownej = " << rozmiar;
     zapis << " znaleziono = " << licz_wystapienia << " kombinacji \n";
     zapis << "-----------------------------------------------------------\n ";
 
